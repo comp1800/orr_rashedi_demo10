@@ -190,7 +190,7 @@
                         newcard.querySelector('.card-image').src = "./images/" + collection + ".jpg";  //hikes.jpg, heros.jpg
 
                         //updates href, so we can click, and go to details.html
-                        newcard.querySelector('.card-href').href = "details.html?collection="+collection+"?id=" + doc.id;    //firestore doc ID
+                        newcard.querySelector('.card-href').href = "details.html?collection="+collection+"&id=" + doc.id;    //firestore doc ID
 
                         //give unique ids to all elements for future use
                         newcard.querySelector('.card-title').setAttribute("id", "ctitle" + i);
