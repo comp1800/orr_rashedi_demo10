@@ -1,1 +1,24 @@
 
+.bg-info {
+    background-color: #8f3985 !important;
+ }
+
+ .navbar-light .navbar-brand {
+    color: #EFD9CE;
+}
+
+.btn-info {
+    color: #EFD9CE;
+    background-color: #a675A1;
+    border-color: #25283D;
+}
+
+body {
+    background-color: #EFD9CE;
+}
+
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.25rem;
+}
